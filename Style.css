@@ -1,18 +1,31 @@
-html {
+body {
     background: url(Images/Background.svg);
     background-repeat: no-repeat;
     height: 100vh;
     background-color: #643027;
 }
+
 div{
   background: url(Images/euro.svg);
   background-repeat: no-repeat;
   width: 100%;
   height: 5vh;
 }
+
 .gaatje{
   background: red;
   width: 20%;
   display: block;
   float: left;
+}
+
+.gaatje-img{
+  margin: 120px;
+}
+.pitje-img{
+  margin: 120px;
+}
+
+#pit, #pit1, #pit2, #pit3, #pit4 {
+  display: none;
 }
