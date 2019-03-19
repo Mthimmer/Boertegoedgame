@@ -1,3 +1,9 @@
 $(document).ready(function(){
-alert("Mike is een zieke codeerder")
+$(".gaatje-img").click(zaaien);
 });
+
+
+function zaaien(){
+  $(this).hide();
+  $(this).next().show();
+}
