@@ -1,12 +1,48 @@
-html {
+body {
     background: url(Images/Background.svg);
     background-repeat: no-repeat;
     height: 100vh;
     background-color: #643027;
 }
+
 div{
+  background: blue;
+  width: 100px;
+  float: left;
+  margin: 1em;
+}
+
+.euro{
   background: url(Images/euro.svg);
   background-repeat: no-repeat;
-  width: 100%;
+  width: 10%;
   height: 5vh;
+}
+
+.punten{
+  background: url(Images/circel-blauw.svg);
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 5vh;
+}
+
+.logo{
+  background: url(Images/logo.svg);
+  background-repeat: no-repeat;
+
+  height: 5vh;
+
+}
+
+#center-logo {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#menu-balk{
+  background: red;
+  max-height: 100px;
+  overflow-y: hidden;
 }
