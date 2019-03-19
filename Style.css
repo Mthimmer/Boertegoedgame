@@ -5,3 +5,11 @@ html {
     background-color: #643027;
 
 }
+
+
+.gaatje{
+  background: red;
+  width: 20%;
+  display: block;
+  float: left;
+}
